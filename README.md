@@ -7,4 +7,9 @@
 1. 启动脚步js_hook.js   (frida -U -l js_hook.js -f com.lang.testso --no-pause)
    * 脚步中包含了hook MD5 AES DES RSA 等一些列加密算法；以及解决app 无法抓包的ssl ping脚步
 2. 启动app点击发送请求，查看响应日志
+   * AES
+   ![AES](https://github.com/langgithub/RxAppEncryptionProtocol/blob/master/Rx_AES%E5%8A%A0%E5%AF%86%E6%97%A5%E5%BF%97.png)
+   * RSA
+   ![RSA](https://github.com/langgithub/RxAppEncryptionProtocol/blob/master/Rx_RSA%E5%8A%A0%E5%AF%86%E6%97%A5%E5%BF%97.png)
+   
  
