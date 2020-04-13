@@ -13,3 +13,4 @@
    ![RSA](https://github.com/langgithub/RxAppEncryptionProtocol/blob/master/Rx_RSA%E5%8A%A0%E5%AF%86%E6%97%A5%E5%BF%97.png)
    
 3. 还原算法，测试代码在com.lang.script下，将打印的16进制转换为byte字节数组，还原加密现场
+4. frida工作中使用总结 https://langgithub.github.io/2019/08/01/frida%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/
