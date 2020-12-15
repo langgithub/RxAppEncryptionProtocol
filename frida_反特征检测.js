@@ -7,7 +7,8 @@
 // 3. hook系统函数
 
 //  改端口调用方式
-//   ./flang  -l 0.0.0.0:12345
+//   ./flang  -l 0.0.0.0:12345adb 
+//  adb forward tcp:12345 tcp:12345  
 //  frida -H 127.0.0.1:12345  -l jingdong.js  -f com.jingdong.app.mall
 //  %resume 启动
 
